@@ -5,7 +5,7 @@ import "../assets/sass/Navbar.sass"
 const Navbar = () => {
 
     return(
-        <div className="nav">
+        <div className="Navbar">
             icon
             <ul>
                 <li><a href="#About">Sobre mim</a></li>
