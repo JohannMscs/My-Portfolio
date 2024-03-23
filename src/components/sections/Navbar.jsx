@@ -1,6 +1,6 @@
 
 //style
-import "../assets/sass/Navbar.sass"
+import "../../assets/sass/Navbar.sass"
 
 const Navbar = () => {
 
