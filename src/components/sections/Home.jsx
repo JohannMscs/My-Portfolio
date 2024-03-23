@@ -1,15 +1,22 @@
 //components
+import foto from "../../assets/img/foto2.png"
 
 //style
-import "../../assets/sass/Home.sass";
+import "../../assets/sass/components/Home.sass";
 
-const Home = () => {
+// eslint-disable-next-line react/prop-types
+const Home = ({title, date}) => {
+
+  
+
   return (
-    <div>
-        <a href="#10"></a>
+    <div className="home">
+      <img src={foto} alt=""/>
+      <p>Olá, eu sou sou Johann</p>
       <h1>Desenvolvedor Front-end</h1>
-      <h2>Olá, eu sou sou Johann</h2>
-    </div>
+      
+      <p>{title} {date}</p>
+      </div>
   );
 };
 

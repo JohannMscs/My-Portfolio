@@ -1,4 +1,4 @@
-@use "./variables"
+@use "../variables"
 .Navbar
     width:100%
     background-color: variables.$bg-sec-color
@@ -6,6 +6,10 @@
     flex-direction: row
     justify-content: space-between
     align-items: center
+
+    p
+        width: 50px
+        font-weight: bold
 
     ul
         display: flex
@@ -17,6 +21,7 @@
 
             a
                 text-decoration: none
+                font-size: 15px
                 font-weight: bold
             
         
