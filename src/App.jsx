@@ -1,9 +1,9 @@
 //components
 import Home from "./components/sections/Home"
-import Navbar from "./components/Navbar"
 
 //style
 import "./App.sass"
+import Navbar from "./components/sections/Navbar"
 
 const App = () => {
 
