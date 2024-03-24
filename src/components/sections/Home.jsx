@@ -34,16 +34,24 @@ const Home = () => {
       <h1>Desenvolvedor Front-end</h1>
       <ul >
         <li>
-        <img src={github} alt="github" />
+        <a href="https://github.com/JohannMscs">
+          <img src={github} alt="github" />
+        </a>
         </li>
         <li>
+        <a href="https://www.linkedin.com/in/johann-moscoso">
         <img src={linkedin} alt="linkedin" />
+        </a>
         </li>
         <li>
+        <a href="">
         <img src={whatsapp} alt="whatsapp" />
+        </a>
         </li>
         <li>
+        <a href="malito:johann.moscoso@gmail.com">
         <img src={email} alt="email" />
+        </a>
         </li>
       </ul>
     </div>

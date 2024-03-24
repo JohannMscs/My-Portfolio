@@ -16,8 +16,25 @@
 
     .foto
         width: 50%
-        background: linear-gradient(to right, rgba(43,33,215,1) 0%, rgba(64,64,187,1) 51%, rgba(3,149,179,1) 90%)
+        background: linear-gradient(to right, #2b21d7 0%, #4040bb 51%, #0395b3 90%)
         border-radius: 10%
         margin: 0.5em
 
+    ul
+        
+        list-style: none
+        display: flex  
+    
+    li
+        width: 60px
+        height: 60px
+        background: linear-gradient(#292929, #292929)   padding-box, linear-gradient(#2b21d7 , #4040bb, #0395b3) border-box
+        border-radius: 50em
+        border: 4px solid transparent
+        margin: 0em 0.5em
+        @include mixins.center
+        
+       
+    img
+        width: 35px 
     
