@@ -6,7 +6,7 @@ import Skills from "./components/sections/Skills"
 import Projects from "./components/sections/Projects"
 import Footer from "./components/sections/Footer"
 
-import React, {useEffect} from "react"
+import {useEffect} from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
@@ -29,7 +29,7 @@ const App = () => {
 
 
   return(
-    <div className="App">
+    <section className="App">
      <Navbar />
     <Home title="oi" date="21"/>
     <About/>
@@ -41,7 +41,7 @@ const App = () => {
     <div  className="box" id="box3" data-aos="fade-left">box 3</div>
     <div  className="box" id="box5">box 5</div>
     <div  className="box" id="box6">box 6</div>
-    </div>
+    </section>
   )
 }
 
