@@ -1,0 +1,23 @@
+@use "../mixins"
+@use "../variables"
+
+.About
+    background-color: variables.$bg-sec-color
+    display: flex
+    flex-direction: column
+    margin: 1em 0em
+    @include mixins.center
+    
+
+    h2
+        font-size: 25px
+    
+    article
+        width: 100%
+        padding: 0.5em
+        margin: 0.5em 0em
+
+        p
+            font-size: 16px
+            padding: 0.3em
+    
