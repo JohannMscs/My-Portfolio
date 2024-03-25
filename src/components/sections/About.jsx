@@ -1,9 +1,23 @@
+//hooks
+import { useEffect } from "react";
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 //style
 import "../../assets/sass/components/About.sass";
 
 const About = () => {
+
+  useEffect(() =>{
+    Aos.init({
+      duration: 1500,
+      easing: "ease",
+      once: false
+    })
+  })
+
   return (
-    <section className="About">
+    <section className="About" data-aos="fade-up">
       <h2>Sobre mim</h2>
       <article>
         <p>
