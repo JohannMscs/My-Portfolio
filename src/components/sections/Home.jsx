@@ -30,7 +30,7 @@ const Home = () => {
     <>
       <div className="home" data-aos="fade-up">
         <img src={foto} alt="foto" className="foto" />
-        <p>Olá, eu sou sou Johann</p>
+        <p>Olá, eu sou Johann</p>
         <h1>Desenvolvedor Front-end</h1>
         <li className="download">
           <a href={CV} download={CV}>
