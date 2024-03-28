@@ -7,7 +7,7 @@ import "aos/dist/aos.css"
 import "../../assets/sass/components/About.sass";
 
 const About = () => {
-
+  //animação de About subindo para o topo da página junto de Home
   useEffect(() =>{
     Aos.init({
       duration: 1500,

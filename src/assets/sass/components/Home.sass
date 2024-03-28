@@ -23,15 +23,19 @@
         border-radius: 10%
         margin: 0.5em
 
-    .download
-        width: 50%
-        background: linear-gradient(#292929, #292929) padding-box, linear-gradient(#2b21d7, #4040bb, #0395b3) border-box
-        border-radius: 10px
-        border: 4px solid transparent
-        padding: 0.2em
-        margin: 0.5em
-        text-align: center
-        list-style: none
+    div
+        width: 100%
+        @include mixins.center
+
+        .download
+            width: 50%
+            background: linear-gradient(#292929, #292929) padding-box, linear-gradient(#2b21d7, #4040bb, #0395b3) border-box
+            border-radius: 10px
+            border: 4px solid transparent
+            padding: 0.2em
+            margin: 0.5em
+            text-align: center
+            list-style: none
 
         a
             text-decoration: none

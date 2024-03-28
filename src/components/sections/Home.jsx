@@ -17,6 +17,7 @@ import email from "../../assets/img/contact/email.png";
 import CV from "../../assets/archive_for_download/Johann-Moscoso_CV.pdf";
 
 // eslint-disable-next-line react/prop-types
+//animação de Home subindo para o topo da página
 const Home = () => {
   useEffect(() => {
     Aos.init({
@@ -28,40 +29,42 @@ const Home = () => {
 
   return (
     <>
-      <div className="home" data-aos="fade-up">
+      <section className="home" data-aos="fade-up">
         <img src={foto} alt="foto" className="foto" />
-        <header>
-          <p>Olá, eu sou Johann</p>
-          <h2>Desenvolvedor Front-end</h2>
-        </header>
-        <li className="download">
-          <a href={CV} download={CV}>
-            Download CV
-          </a>
-        </li>
-        <ul>
-          <li>
-            <a href="https://github.com/JohannMscs">
-              <img src={github} alt="github" />
+        <div>
+          <header>
+            <p>Olá, eu sou Johann</p>
+            <h2>Desenvolvedor Front-end</h2>
+          </header>
+          <li className="download">
+            <a href={CV} download={CV}>
+              Download CV
             </a>
           </li>
-          <li>
-            <a href="https://www.linkedin.com/in/johann-moscoso">
-              <img src={linkedin} alt="linkedin" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src={whatsapp} alt="whatsapp" />
-            </a>
-          </li>
-          <li>
-            <a href="malito:johann.moscoso@gmail.com">
-              <img src={email} alt="email" />
-            </a>
-          </li>
-        </ul>
-      </div>
+          <ul>
+            <li>
+              <a href="https://github.com/JohannMscs">
+                <img src={github} alt="github" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/johann-moscoso">
+                <img src={linkedin} alt="linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src={whatsapp} alt="whatsapp" />
+              </a>
+            </li>
+            <li>
+              <a href="malito:johann.moscoso@gmail.com">
+                <img src={email} alt="email" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </>
   );
 };

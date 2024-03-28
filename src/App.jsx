@@ -29,14 +29,14 @@ const App = () => {
 
 
   return(
-    <section className="App">
+    <div className="App">
      <Navbar />
     <Home title="oi" date="21"/>
     <About/>
     <Skills/>
     <Projects/>
     <Footer/>
-    </section>
+    </div>
   )
 }
 

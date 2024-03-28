@@ -1,5 +1,11 @@
 @use "../variables"
 @use "../mixins"
+
+//scale media querys
+$mobile: 480px
+$tablet: 768px
+$desktop: 1024px
+
 .Navbar
     width:100%
     background-color: variables.$bg-sec-color
@@ -7,17 +13,27 @@
     flex-direction: row
     justify-content: space-between
     align-items: center
-
+    @media screen
+        @media(min-width: $tablet)
+            height: 50px
+    
     p
         @include mixins.colors
         
         width: 70px
         font-weight: bold
         margin: 0em 1em
+        @media screen 
+            @media( min-width: $tablet)
+                width: 200px
+                font-size: 20px
 
     ul
         display: flex
         margin: 0.5em
+        @media screen 
+            @media(min-width: $tablet)
+                margin: 1em
 
         li
             list-style: none
@@ -27,6 +43,11 @@
                 text-decoration: none
                 font-size: 13px
                 font-weight: bold
+                @media screen
+                    @media(min-width: $tablet)
+                        font-size: 16px
+                        margin: 0.6em
+                        
             
         
         
