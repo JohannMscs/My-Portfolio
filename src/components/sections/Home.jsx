@@ -36,11 +36,12 @@ const Home = () => {
             <p>Olá, eu sou Johann</p>
             <h2>Desenvolvedor Front-end</h2>
           </header>
-          <li className="download">
-            <a href={CV} download={CV}>
+          
+            <a href={CV} download={CV} className="download">
+            <li>
               Download CV
+              </li>
             </a>
-          </li>
           <ul>
             <li>
               <a href="https://github.com/JohannMscs">
