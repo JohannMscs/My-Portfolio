@@ -19,9 +19,9 @@ const Skills = () =>{
 
     return(
 
-        <section className='skills' data-aos="fade-right" data-aos-duration="1500" >
+        <section className='skills' >
             <h2>skills</h2>
-            <ul>
+            <ul data-aos="fade-right" data-aos-duration="1500">
                 <li id="technologies">
                     <img src={html} alt="html" />
                     <p>HTML</p>
