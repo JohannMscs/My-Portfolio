@@ -34,7 +34,7 @@ const App = () => {
     <Home title="oi" date="21"/>
     <About/>
     <Skills/>
-    <Projects/>
+      <Projects/>
     <Footer/>
     </div>
   )
