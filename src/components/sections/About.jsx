@@ -1,5 +1,7 @@
 //hooks
 import { useEffect } from "react";
+
+//animação
 import Aos from "aos"
 import "aos/dist/aos.css"
 

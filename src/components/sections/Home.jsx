@@ -1,5 +1,7 @@
 //hooks
 import { useEffect } from "react";
+
+//animação
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -19,6 +21,7 @@ import CV from "../../assets/archive_for_download/Johann-Moscoso_CV.pdf";
 // eslint-disable-next-line react/prop-types
 //animação de Home subindo para o topo da página
 const Home = () => {
+
   useEffect(() => {
     Aos.init({
       duration: 1500,

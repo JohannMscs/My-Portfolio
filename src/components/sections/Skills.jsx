@@ -1,3 +1,10 @@
+//animação
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
+//style
+import "../../assets/sass/components/Skills.sass"
+
 //imagem das tecnologias
 import html from '../../assets/img/skills/html.png'
 import css from '../../assets/img/skills/css.png'
@@ -8,14 +15,12 @@ import tailwind from '../../assets/img/skills/tailwind.png'
 import react from '../../assets/img/skills/react.png'
 import figma from '../../assets/img/skills/figma.png'
 
-//style
-import "../../assets/sass/components/Skills.sass"
 
 const Skills = () =>{
-     
+
     return(
 
-        <section className='skills'>
+        <section className='skills' data-aos="fade-right" data-aos-duration="1500" >
             <h2>skills</h2>
             <ul>
                 <li id="technologies">
