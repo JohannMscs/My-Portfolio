@@ -1,9 +1,11 @@
+@use "../mixins"
+@use "../variables"
+
 //scale media querys
 $mobile: 480px
 $tablet: 768px
-$desktop: 1024px  
-@use "../mixins"
-@use "../variables"
+$desktop: 1024px
+
 
 .About
     background-color: variables.$bg-sec-color
@@ -15,7 +17,7 @@ $desktop: 1024px
 
     h2
         font-size: 25px
-        margin: 0.3em 0em
+        margin-top: 1em
         //@include mixins.colors
         @media screen and (min-width: $tablet)
             font-size: 35px
