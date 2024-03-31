@@ -10,11 +10,10 @@ import {useEffect} from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-
-
 //style
 import "./App.sass"
 
+import html from './assets/img/skills/html.png'
 
 
 const App = () => {
@@ -34,7 +33,9 @@ const App = () => {
     <Home title="oi" date="21"/>
     <About/>
     <Skills/>
-      <Projects/>
+      <Projects
+        html={html}
+      />
     <Footer/>
     </div>
   )

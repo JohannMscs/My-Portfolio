@@ -23,7 +23,7 @@ const Skills = () =>{
             <h2>skills</h2>
             <ul data-aos="fade-right" data-aos-duration="1500">
                 <li id="technologies">
-                    <img src={html} alt="html" />
+                    <img src={{html}} alt="html" />
                     <p>HTML</p>
                 </li>
                 <li id="technologies">
