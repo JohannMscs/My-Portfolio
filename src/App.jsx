@@ -13,7 +13,15 @@ import "aos/dist/aos.css"
 //style
 import "./App.sass"
 
+// imagens das tecnologias
 import html from './assets/img/skills/html.png'
+import css from './assets/img/skills/css.png'
+import javascript from './assets/img/skills/javascript.png'
+import typescript from './assets/img/skills/typescript.png'
+import sass from './assets/img/skills/sass.png'
+import tailwind from './assets/img/skills/tailwind.png'
+import react from './assets/img/skills/react.png'
+import figma from './assets/img/skills/figma.png'
 
 
 const App = () => {
@@ -32,9 +40,25 @@ const App = () => {
      <Navbar />
     <Home title="oi" date="21"/>
     <About/>
-    <Skills/>
+    <Skills
+      html={html}
+      css={css}
+      javascript={javascript}
+      typescript={typescript}
+      sass={sass}
+      tailwind={tailwind}
+      react={react}
+      figma={figma}
+    />
       <Projects
         html={html}
+        css={css}
+        javascript={javascript}
+        typescript={typescript}
+        sass={sass}
+        tailwind={tailwind}
+        react={react}
+        figma={figma}
       />
     <Footer/>
     </div>
