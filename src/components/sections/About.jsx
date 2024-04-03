@@ -27,7 +27,7 @@ const About = () => {
           leitura, música, jogos e filmes. Sou muito criativo e por
           esse motivo escolhi seguir o caminho da programação, pois me dá
           possibilidade de criar os mais diversos sistemas que se pode imaginar.
-          Sempre que tenho ideias, elaboro-as no Figma e alinho a minhas
+          Sempre que tenho ideias, elaboro-as no Figma e alinho com minhas
           competências como desenvolvedor Front-end e as desenvolvo.
         </p>
         <p>
