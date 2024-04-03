@@ -57,7 +57,7 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="">
+              <a href=" https://wa.me/5521967667589">
                 <img src={whatsapp} alt="whatsapp" />
               </a>
             </li>

@@ -24,7 +24,7 @@ const About = () => {
       <article>
         <p>
           Olá, meu nome é Johann. Tenho 22 anos, atualmente estou cursando 5° período de Engenharia de Software. Sou uma pessoa que adora
-          leitura, música, jogos e filmes. Sou uma pessoa muito criativa e por
+          leitura, música, jogos e filmes. Sou muito criativo e por
           esse motivo escolhi seguir o caminho da programação, pois me dá
           possibilidade de criar os mais diversos sistemas que se pode imaginar.
           Sempre que tenho ideias, elaboro-as no Figma e alinho a minhas

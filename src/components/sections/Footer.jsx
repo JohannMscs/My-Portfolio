@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://wa.me/5521967667589">
             <FaWhatsapp id="whatsapp"/>
           </a>
         </li>
