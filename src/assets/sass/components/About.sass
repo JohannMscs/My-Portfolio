@@ -11,8 +11,12 @@ $desktop: 1024px
     background-color: variables.$bg-sec-color
     display: flex
     flex-direction: column
-    margin: 1em 0em
+    margin: 2.8em 0em
+    padding-bottom: 2em
     @include mixins.center
+
+    @media screen and (min-width: $desktop)
+        margin: 0em 4em
     
 
     h2
@@ -27,10 +31,14 @@ $desktop: 1024px
         width: 100%
         padding: 0.5em
         margin: 0.5em 0em
+        text-align: center
+        @media screen and (min-width: $desktop)
+            text-align: left
 
         p
             font-size: 16px
-            padding: 0.3em
+            padding-bottom: 0.5em
+            margin: 0.5em
             @media screen and (min-width: $tablet)
                 font-size: 25px
                 padding: 0em 1em

@@ -23,7 +23,7 @@ const About = () => {
       <h2>Sobre mim</h2>
       <article>
         <p>
-          Olá, meu nome é Johann. Tenho 22 anos, sou uma pessoa que adora
+          Olá, meu nome é Johann. Tenho 22 anos, atualmente estou cursando 5° período de Engenharia de Software. Sou uma pessoa que adora
           leitura, música, jogos e filmes. Sou uma pessoa muito criativa e por
           esse motivo escolhi seguir o caminho da programação, pois me dá
           possibilidade de criar os mais diversos sistemas que se pode imaginar.

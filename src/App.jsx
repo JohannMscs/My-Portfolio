@@ -23,6 +23,7 @@ import sass from './assets/img/skills/sass.png'
 import tailwind from './assets/img/skills/tailwind.png'
 import react from './assets/img/skills/react.png'
 import figma from './assets/img/skills/figma.png'
+import ProgressBar from "./components/ProgressBar"
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
 
   return(
     <div className="App">
+      <ProgressBar/>
      <Navbar />
     <Home/>
     <About />
