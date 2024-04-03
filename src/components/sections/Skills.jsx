@@ -9,7 +9,7 @@ const Skills = ({html, css, javascript, typescript, sass, tailwind, react, figma
 
     return(
 
-        <section className='skills' >
+        <section className='Skills' >
             <h2>skills</h2>
             <ul data-aos="fade-right" data-aos-duration="1500">
                 <li id="technologies">

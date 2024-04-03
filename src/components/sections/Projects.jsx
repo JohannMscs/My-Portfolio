@@ -9,7 +9,7 @@ import '../../assets/img/skills/html.png'
 const Projects = ({html, css, javascript, typescript, sass, tailwind, react, figma}) => {
 
     return(
-        <article>
+        <article className='Projects'>
             <h2>Projetos</h2>
             <Project 
             projectName={"BookStore"}

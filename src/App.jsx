@@ -9,6 +9,7 @@ import Footer from "./components/sections/Footer"
 import {useEffect} from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Link, animateScroll as scroll } from "react-scroll"
 
 //style
 import "./App.sass"
@@ -38,8 +39,8 @@ const App = () => {
   return(
     <div className="App">
      <Navbar />
-    <Home title="oi" date="21"/>
-    <About/>
+    <Home/>
+    <About />
     <Skills
       html={html}
       css={css}

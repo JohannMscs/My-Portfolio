@@ -62,7 +62,7 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="malito:johann.moscoso@gmail.com">
+              <a href="mailto:johann.moscoso@gmail.com">
                 <img src={email} alt="email" />
               </a>
             </li>

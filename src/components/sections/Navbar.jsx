@@ -1,4 +1,4 @@
-
+import { Link, animateScroll as scroll } from "react-scroll"
 //style
 import "../../assets/sass/components/Navbar.sass"
 
@@ -8,10 +8,10 @@ const Navbar = () => {
         <nav className="Navbar">
             <p>Johann Moscoso</p>
             <ul>
-                <li><a href="#About">Sobre mim</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Projects">Projetos</a></li>
-                <li><a href="#Contact">Contato</a></li>
+                <li><Link to="About" smooth={true}>Sobre mim</Link></li>
+                <li><Link to="Skills" smooth={true}>Skills</Link></li>
+                <li><Link to="Projects" smooth={true}>Projetos</Link></li>
+                <li><Link to="Contact" smooth={true}>Contato</Link></li>
             </ul>
         </nav>
     )
