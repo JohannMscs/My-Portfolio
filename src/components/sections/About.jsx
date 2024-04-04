@@ -19,7 +19,7 @@ const About = () => {
   })
 
   return (
-    <section className="About" data-aos="fade-up">
+    <section className="About" data-aos="fade-up" aos-duration="1500">
       <h2>Sobre mim</h2>
       <article>
         <p>
