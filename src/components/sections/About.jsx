@@ -9,14 +9,6 @@ import "aos/dist/aos.css"
 import "../../assets/sass/components/About.sass";
 
 const About = () => {
-  //animação de About subindo para o topo da página junto de Home
-  useEffect(() =>{
-    Aos.init({
-      duration: 1500,
-      easing: "ease",
-      once: false
-    })
-  })
 
   return (
     <section className="About" data-aos="fade-up" aos-duration="1500">
