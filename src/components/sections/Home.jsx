@@ -10,10 +10,10 @@ import "../../assets/sass/components/Home.sass";
 
 //images
 import foto from "../../assets/img/foto.png";
-import github from "../../assets/img/contact/github.png";
-import linkedin from "../../assets/img/contact/linkedin.png";
-import whatsapp from "../../assets/img/contact/whatsapp.png";
-import email from "../../assets/img/contact/email.png";
+
+//react-icons
+import {FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope} 
+from 'react-icons/fa6'
 
 //archive
 import CV from "../../assets/archive_for_download/Johann-Moscoso_CV.pdf";
@@ -47,23 +47,23 @@ const Home = () => {
             </a>
           <ul>
             <li>
-              <a href="https://github.com/JohannMscs">
-                <img src={github} alt="github" />
+              <a href="https://github.com/JohannMscs" target="blank">
+                <FaGithub size={30}/>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/johann-moscoso">
-                <img src={linkedin} alt="linkedin" />
+              <a href="https://www.linkedin.com/in/johann-moscoso" target="blank">
+                <FaLinkedin size={30}/>
               </a>
             </li>
             <li>
-              <a href=" https://wa.me/5521967667589">
-                <img src={whatsapp} alt="whatsapp" />
+              <a href=" https://wa.me/5521967667589" target="blank">
+                <FaWhatsapp size={30}/>
               </a>
             </li>
             <li>
               <a href="mailto:johann.moscoso@gmail.com">
-                <img src={email} alt="email" />
+                <FaEnvelope size={30}/>
               </a>
             </li>
           </ul>
