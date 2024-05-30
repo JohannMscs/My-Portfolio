@@ -16,7 +16,7 @@ import {FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope}
 from 'react-icons/fa6'
 
 //archive
-import CV from "../../assets/archive_for_download/Johann-Moscoso_CV.pdf";
+import CV from "../../assets/archive_for_download/Johann_curriculo[1].pdf";
 
 // eslint-disable-next-line react/prop-types
 //animação de Home subindo para o topo da página
@@ -40,7 +40,7 @@ const Home = () => {
             <h2>Desenvolvedor Front-end</h2>
           </header>
           
-            <a href={CV} download={CV} className="download">
+            <a href={CV} download="Johann-Moscoso_CV" className="download">
             <li>
               Download CV
               </li>
