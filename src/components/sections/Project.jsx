@@ -6,16 +6,35 @@ import whiteImage from "../../assets/img/Projects/imagem em branco.png";
 
 //animation
 import Aos from "aos";
-import 'aos/dist/aos';
+import "aos/dist/aos";
 
-const Project = ({ text, projectName, tech_1, tech_2, tech_3, tech_4, github_Repository, project_Link}) => {
-
+const Project = ({
+  description,
+  projectName,
+  project_01,
+  function_01,
+  function_02,
+  tech_1,
+  tech_2,
+  tech_3,
+  tech_4,
+  github_Repository,
+  project_Link,
+}) => {
   return (
-    <section className="project_container" data-aos="fade-right" data-aos-duration="2000">
-      
-      <img src={whiteImage} alt="" className="project_image" />
+    <section
+      className="project_container"
+      data-aos="fade-right"
+      data-aos-duration="2000"
+    >
+       <video autoplay="true" loop="true" muted className="project_image">
+   <source
+     src={project_01}
+     type="video/mp4"
+   />
+ </video >
       <div>
-      <h3>{projectName}</h3>
+        <h3>{projectName}</h3>
         <ul className="skill_List">
           <li>
             <img src={tech_1} alt="" />
@@ -27,13 +46,19 @@ const Project = ({ text, projectName, tech_1, tech_2, tech_3, tech_4, github_Rep
             <img src={tech_3} alt="" />
           </li>
         </ul>
-        <p>{text}</p>
+        <p>{description}</p>
+        <ul className="function_list">
+          <li>
+            {function_01}
+          </li>
+          <li>{function_02}</li>
+        </ul>
         <ul className="list_Link">
           <li className="github_Link">
-            <a href={github_Repository}> Repositório</a>
+            <a href={github_Repository} target="blank"> Repositório</a>
           </li>
           <li className="project_Link">
-            <a href={project_Link}>Projeto</a>
+            <a href={project_Link} target="blank">Projeto</a>
           </li>
         </ul>
       </div>

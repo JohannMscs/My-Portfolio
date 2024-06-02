@@ -2,8 +2,8 @@
 import Project from '../sections/Project'
 //style 
 import "../../assets/sass/components/Projects.sass"
-import '../../assets/img/skills/html.png'
 
+import project_01 from "../../assets/video_projects/Projeto_JH_Burguer.mp4"
 
 // eslint-disable-next-line react/prop-types
 const Projects = ({html, css, javascript, typescript, sass, tailwind, react, figma}) => {
@@ -12,22 +12,15 @@ const Projects = ({html, css, javascript, typescript, sass, tailwind, react, fig
         <article className='Projects'>
             <h2>Projetos</h2>
             <Project 
-            projectName={"BookStore"}
-            text={"loja de livros para compra, é possível ver a lista de livros, com mencanismo de filtragem de pesquisa (valores mais caros e mais baratos e gênero), você pode escolher os livros que deseja e adiciona-los ao carrinho para compra"}
-            tech_1={html}
-            tech_2={css}
-            tech_3={javascript}
-            github_Repository={'https://www.google.com'}
-            project_Link={'https://www.google.com'}
-            />
-            <Project 
-            projectName={"MovieScore"}
-            text={"site de notas de filmes, temos filmes lançamentos e mais antigos, você podecriar uma conta e dar as notas que acha  adequada para determinado filme, assim colaborando com a comunidade"}
-            tech_1={html}
-            tech_2={css}
-            tech_3={javascript}
-            github_Repository={'https://www.youtube.com'}
-            project_Link={'https://www.youtube.com'}
+            projectName={"JH_Burguer"}
+            project_01={project_01}
+            description={`Hamburgueria que utiliza dados de uma fake api, que disponibiliza os ingredientes para o hamburguer, acompanhamento, bebida e o status do pedido. `}
+            function_01="Pode ser feitos novos pedidos na página de home."
+            function_02="Na página de pedidos é possível ver os pedidos que foram feitos, é possível mudar o seu status e também deletar eles."
+            tech_1={react}
+            tech_2={tailwind}
+            github_Repository={'https://github.com/JohannMscs/JH_Burguer'}
+            project_Link={'https://jh-burguer.vercel.app/'}
             />
         </article>
     )
