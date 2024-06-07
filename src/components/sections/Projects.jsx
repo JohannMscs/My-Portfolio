@@ -18,7 +18,8 @@ const Projects = ({html, css, javascript, typescript, sass, tailwind, react, fig
             function_01="Pode ser feitos novos pedidos na página de home."
             function_02="Na página de pedidos é possível ver os pedidos que foram feitos, é possível mudar o seu status e também deletar eles."
             tech_1={react}
-            tech_2={tailwind}
+            tech_2={javascript}
+            tech_3={tailwind}
             github_Repository={'https://github.com/JohannMscs/JH_Burguer'}
             project_Link={'https://jh-burguer.vercel.app/'}
             />
