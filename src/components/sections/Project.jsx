@@ -11,15 +11,15 @@ import "aos/dist/aos";
 const Project = ({
   description,
   projectName,
-  project_01,
-  function_01,
-  function_02,
-  tech_1,
-  tech_2,
-  tech_3,
-  tech_4,
-  github_Repository,
-  project_Link,
+  project01,
+  function01,
+  function02,
+  tech1,
+  tech2,
+  tech3,
+  tech4,
+  githubRepository,
+  projectLink,
 }) => {
   return (
     <section
@@ -29,7 +29,7 @@ const Project = ({
     >
        <video autoplay="true" loop="true" muted className="project_image">
    <source
-     src={project_01}
+     src={project01}
      type="video/mp4"
    />
  </video >
@@ -37,28 +37,28 @@ const Project = ({
         <h3>{projectName}</h3>
         <ul className="skill_List">
           <li>
-            <img src={tech_1} alt="" />
+            <img src={tech1} alt="" />
           </li>
           <li>
-            <img src={tech_2} alt="" />
+            <img src={tech2} alt="" />
           </li>
           <li>
-            <img src={tech_3} alt="" />
+            <img src={tech3} alt="" />
           </li>
         </ul>
         <p>{description}</p>
         <ul className="function_list">
           <li>
-            {function_01}
+            {function01}
           </li>
-          <li>{function_02}</li>
+          <li>{function02}</li>
         </ul>
         <ul className="list_Link">
           <li className="github_Link">
-            <a href={github_Repository} target="blank"> Repositório</a>
+            <a href={githubRepository} target="blank"> Repositório</a>
           </li>
           <li className="project_Link">
-            <a href={project_Link} target="blank">Projeto</a>
+            <a href={projectLink} target="blank">Projeto</a>
           </li>
         </ul>
       </div>
